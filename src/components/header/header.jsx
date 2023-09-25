@@ -20,7 +20,7 @@ const header = () => {
                                     <input
                                         type="text"
                                         placeholder="Type here..."
-                                        className=" w-96 h-12  rounded-md input-bordered  "
+                                        className=" w-96 h-12  rounded-md bg-slate-50 input-bordered  "
                                     />
                                 </div>
 
