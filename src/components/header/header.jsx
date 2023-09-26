@@ -30,10 +30,10 @@ const Header = ({ allDonations, setFilteredDonations }) => {
                         </h1>
                     </div>
                     <div className="flex justify-center items-center gap-2 mt-5">
-                        <div>
+                        <div className=" ">
                             <input
                                 type="text"
-                                placeholder="Type here..."
+                                placeholder=" Search here...."
                                 className="w-96 h-12 rounded-md bg-slate-50 input-bordered"
                                 value={categoryInput}
                                 onChange={(e) =>

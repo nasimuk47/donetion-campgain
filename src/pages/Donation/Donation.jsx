@@ -34,8 +34,12 @@ const Donation = () => {
                             </div>
                             <div className="p-6">
                                 <h6
-                                    className="mb-4 block font-sans text-base font-semibold"
-                                    style={{ color: donatedCard.text_color }}>
+                                    className="w-1/2 rounded-md p-2 block font-sans text-base font-semibold"
+                                    style={{
+                                        backgroundColor:
+                                            donatedCard.category_color,
+                                        color: donatedCard.text_color,
+                                    }}>
                                     {donatedCard.category}
                                 </h6>
 

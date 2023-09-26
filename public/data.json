@@ -7,7 +7,7 @@
         "description": "Health refers to a state of physical, mental, and social well-being in which an individual is free from illness or injury. It encompasses not only the absence of disease but also the ability to lead a fulfilling and active life. Maintaining good health involves a balanced diet, regular exercise, adequate rest, and a positive outlook on life.",
         "price": 49.99,
         "card_color": "#0052FF26",
-        "category_color": "#0052FF",
+        "category_color": "rgba(0, 82, 255, 0.20)",
         "text_color": "#0052FF"
     },
     {
@@ -18,7 +18,7 @@
         "description": "Education is the process of acquiring knowledge, skills, values, and competencies through various formal and informal means. It plays a pivotal role in personal and societal development, empowering individuals to reach their full potential and contribute to the betterment of society.",
         "price": 29.95,
         "card_color": "#FF444A26",
-        "category_color": "#FF444A",
+        "category_color": "rgba(255, 68, 74, 0.20)",
         "text_color": "#FF444A"
     },
     {
@@ -29,7 +29,7 @@
         "description": "Clothing is a fundamental aspect of human culture and daily life, serving both practical and symbolic functions. It refers to the garments and attire worn by individuals to cover and protect their bodies while also expressing personal style, cultural identity, and societal roles. ",
         "price": 79.99,
         "card_color": "#79C23F26",
-        "category_color": "#79C23F",
+        "category_color": "rgba(121, 194, 63, 0.20)",
         "text_color": "#79C23F"
     },
     {
@@ -40,7 +40,7 @@
         "description": "Food is a fundamental necessity of life, providing nourishment and sustenance for living organisms. It is a complex and diverse category that encompasses a wide range of substances consumed by humans and animals to meet their nutritional needs. ",
         "price": 14.99,
         "card_color": "#F8714726",
-        "category_color": "#F87147",
+        "category_color": "rgba(248, 113, 71, 0.20)",
         "text_color": "#F87147"
     },
     {
@@ -51,7 +51,7 @@
         "description": "Food is a fundamental necessity of life, providing nourishment and sustenance for living organisms. It is a complex and diverse category that encompasses a wide range of substances consumed by humans and animals to meet their nutritional needs. ",
         "price": 199.99,
         "card_color": "#F8714726",
-        "category_color": "#F87147",
+        "category_color": "rgba(248, 113, 71, 0.20)",
         "text_color": "#F87147"
     },
     {
@@ -62,7 +62,7 @@
         "description": "Clothing is a fundamental aspect of human culture and daily life, serving both practical and symbolic functions. It refers to the garments and attire worn by individuals to cover and protect their bodies while also expressing personal style, cultural identity, and societal roles. ",
         "price": 39.95,
         "card_color": "#79C23F26",
-        "category_color": "#79C23F",
+        "category_color": "rgba(121, 194, 63, 0.20)",
         "text_color": "#79C23F"
     },
     {
@@ -73,7 +73,7 @@
         "description": "Education is the process of acquiring knowledge, skills, values, and competencies through various formal and informal means. It plays a pivotal role in personal and societal development, empowering individuals to reach their full potential and contribute to the betterment of society.",
         "price": 59.99,
         "card_color": "#FF444A26",
-        "category_color": "#FF444A",
+        "category_color": "rgba(255, 68, 74, 0.20)",
         "text_color": "#FF444A"
     },
     {
@@ -84,7 +84,7 @@
         "description": "Health refers to a state of physical, mental, and social well-being in which an individual is free from illness or injury. It encompasses not only the absence of disease but also the ability to lead a fulfilling and active life. Maintaining good health involves a balanced diet, regular exercise, adequate rest, and a positive outlook on life.",
         "price": 24.99,
         "card_color": "#0052FF26",
-        "category_color": "#0052FF",
+        "category_color": "rgba(0, 82, 255, 0.20)",
         "text_color": "#0052FF"
     },
     {
@@ -95,7 +95,7 @@
         "description": "Health refers to a state of physical, mental, and social well-being in which an individual is free from illness or injury. It encompasses not only the absence of disease but also the ability to lead a fulfilling and active life. Maintaining good health involves a balanced diet, regular exercise, adequate rest, and a positive outlook on life.",
         "price": 149.99,
         "card_color": "#0052FF26",
-        "category_color": "#0052FF",
+        "category_color": "rgba(0, 82, 255, 0.20)",
         "text_color": "#0052FF"
     },
     {
@@ -106,7 +106,7 @@
         "description": "Education is the process of acquiring knowledge, skills, values, and competencies through various formal and informal means. It plays a pivotal role in personal and societal development, empowering individuals to reach their full potential and contribute to the betterment of society.",
         "price": 49.95,
         "card_color": "#FF444A26",
-        "category_color": "#FF444A",
+        "category_color": "rgba(255, 68, 74, 0.20)",
         "text_color": "#FF444A"
     },
     {
@@ -117,7 +117,7 @@
         "description": "Clothing is a fundamental aspect of human culture and daily life, serving both practical and symbolic functions. It refers to the garments and attire worn by individuals to cover and protect their bodies while also expressing personal style, cultural identity, and societal roles. ",
         "price": 69.99,
         "card_color": "#79C23F26",
-        "category_color": "#79C23F",
+        "category_color": "rgba(121, 194, 63, 0.20)",
         "text_color": "#79C23F"
     },
     {
@@ -128,7 +128,7 @@
         "description": "Food is a fundamental necessity of life, providing nourishment and sustenance for living organisms. It is a complex and diverse category that encompasses a wide range of substances consumed by humans and animals to meet their nutritional needs. ",
         "price": 19.99,
         "card_color": "#F8714726",
-        "category_color": "#F87147",
+        "category_color": "rgba(248, 113, 71, 0.20)",
         "text_color": "#F87147"
     }
 ]

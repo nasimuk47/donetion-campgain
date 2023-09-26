@@ -1,8 +1,21 @@
-# React + Vite
+# Features of this project~
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Logo and Branding:
 
-Currently, two official plugins are available:
+-   Display the website's logo and branding elements prominently at the top of the page. This helps users identify the site and establish brand recognition.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Search and Filtering:
+
+-   Add search functionality to help users discover campaigns based on keywords categories.
+
+#### Data Collection:
+
+-   Collect and organize the data you want to represent in the pie chart. Ensure that the data is relevant and can be categorized into segments or categories.
+
+#### Data Values:
+
+-   Assign numerical values to each category or segment, representing the proportion or percentage of the whole that it represents. These values will determine the size of each slice in the pie chart.
+
+#### Flexible Layout:
+
+-   Design the chart layout using flexible grids or flexbox, so that elements can reorganize themselves as the screen width changes.

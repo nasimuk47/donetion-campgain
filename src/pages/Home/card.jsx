@@ -8,8 +8,15 @@ const CardList = ({ cards }) => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto mt-5 ">
             {cards.map((singleCard) => {
-                const { id, image, title, category, card_color, text_color } =
-                    singleCard;
+                const {
+                    id,
+                    image,
+                    title,
+                    category,
+                    category_color,
+                    card_color,
+                    text_color,
+                } = singleCard;
 
                 const cardStyles = {
                     backgroundColor: card_color,
@@ -18,6 +25,7 @@ const CardList = ({ cards }) => {
 
                 const categoryStyles = {
                     color: text_color,
+                    backgroundColor: category_color,
                 };
 
                 return (
@@ -31,7 +39,7 @@ const CardList = ({ cards }) => {
                             </div>
                             <div className="p-6">
                                 <h5
-                                    className=" w-16 mb-2 block font-sans text-sm font-semibold p-4"
+                                    className=" w-1/3  block rounded-md font-sans text-sm font-semibold p-2"
                                     style={categoryStyles}>
                                     {category}
                                 </h5>
