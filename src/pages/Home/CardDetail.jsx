@@ -59,8 +59,7 @@ const CardDetail = ({ fetchData }) => {
         return <div>Load hocce</div>;
     }
 
-    const { image, title, description, category_color, text_color, price } =
-        card;
+    const { image, title, description, text_color, price } = card;
 
     const buttonStyle = {
         backgroundColor: text_color,
@@ -70,45 +69,27 @@ const CardDetail = ({ fetchData }) => {
         cursor: "pointer",
     };
 
-    const cardDetailStyle = {
-        marginTop: "20px",
-        position: "relative",
-    };
-
-    const cardImageOverlayStyle = {
-        position: "absolute",
-
-        left: "114px",
-        bottom: "0",
-        width: "1100px",
-        height: "130px",
-        backgroundColor: "rgba(0, 0, 0, 0.5)",
-        display: "flex",
-        justifyContent: "flex-start",
-        alignItems: "center",
-        zIndex: "1",
-    };
-
-    const cardImageStyle = {
-        width: "1100px",
-        maxHeight: "700px",
-        objectFit: "cover",
-        margin: "0 auto",
-    };
-
     return (
-        <div style={cardDetailStyle}>
+        <div className="container mx-auto mt-8">
             <div className="relative">
-                <img style={cardImageStyle} src={image} alt={title} />
-                <div style={cardImageOverlayStyle}>
+                <img
+                    className="w-full max-w-full h-auto"
+                    src={image}
+                    alt={title}
+                />
+                <div className="absolute bottom-0 left-0 w-full h-20 bg-black bg-opacity-50 flex items-center">
                     <button style={buttonStyle} onClick={handleDonateClick}>
                         Donate ${price}
                     </button>
                 </div>
             </div>
-            <div className="w-9/12 ml-28">
-                <h1 className="text-3xl font-bold mt-3">{title}</h1>
-                <p className="text-md font-semibold mt-3">{description}</p>
+            <div className="w-full mt-4 mx-auto">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-4xl font-bold mt-3">
+                    {title}
+                </h1>
+                <p className="text-md sm:text-lg md:text-xl lg:text-xl  mt-3">
+                    {description}
+                </p>
             </div>
         </div>
     );
