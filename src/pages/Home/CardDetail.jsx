@@ -3,9 +3,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import Swal from "sweetalert2"; // Import SweetAlert
-import "sweetalert2/dist/sweetalert2.min.css"; // Import SweetAlert styles
-
+import Swal from "sweetalert2";
+import "sweetalert2/dist/sweetalert2.min.css";
 const CardDetail = ({ fetchData }) => {
     const { id } = useParams();
     const navigate = useNavigate();
@@ -34,13 +33,12 @@ const CardDetail = ({ fetchData }) => {
             donatedCards.push(card);
             localStorage.setItem("donatedCards", JSON.stringify(donatedCards));
 
-            // Show a success SweetAlert
             Swal.fire({
                 icon: "success",
                 title: "Donation Successful",
                 text: "Thank you for your donation!",
                 showConfirmButton: false,
-                timer: 3000, // Automatically close after 3 seconds (adjust as needed)
+                timer: 3000,
             }).then(() => {
                 navigate("/Donation");
             });
@@ -51,17 +49,13 @@ const CardDetail = ({ fetchData }) => {
         return (
             <div>
                 <h1>{error}</h1>
-                <p>
-                    {error === "Card not found"
-                        ? "The card you are looking for does not exist."
-                        : "An error occurred while fetching data."}
-                </p>
+                <p>{error === "card pai nai"}</p>
             </div>
         );
     }
 
     if (!card) {
-        return <div>Loading...</div>;
+        return <div>Load hocce</div>;
     }
 
     const { image, title, description, category_color, price } = card;

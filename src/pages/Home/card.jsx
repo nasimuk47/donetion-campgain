@@ -1,7 +1,6 @@
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-/* eslint-disable react/no-unknown-property */
-// Card.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -12,7 +11,6 @@ const CardList = ({ cards }) => {
                 const { id, image, title, category, card_color, text_color } =
                     singleCard;
 
-                // Define dynamic inline styles
                 const cardStyles = {
                     backgroundColor: card_color,
                     color: text_color,
@@ -29,7 +27,7 @@ const CardList = ({ cards }) => {
                             className=" flex w-80 flex-col rounded-xl mt-5 "
                             style={cardStyles}>
                             <div className=" h-56  rounded-xl ">
-                                <img src={image} alt="" layout="fill" />
+                                <img src={image} alt="" layout="" />
                             </div>
                             <div className="p-6">
                                 <h5

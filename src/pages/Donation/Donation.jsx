@@ -3,17 +3,15 @@ import React, { useEffect, useState } from "react";
 
 const Donation = () => {
     const [donatedCards, setDonatedCards] = useState([]);
-    const [visibleCards, setVisibleCards] = useState(4); // Initially, show up to 4 cards
+    const [visibleCards, setVisibleCards] = useState(4);
 
     useEffect(() => {
-        // Retrieve the array of donated cards from localStorage
         const storedCards =
             JSON.parse(localStorage.getItem("donatedCards")) || [];
         setDonatedCards(storedCards);
     }, []);
 
     const handleSeeAllClick = () => {
-        // Increase the number of visible cards when "See All" is clicked
         setVisibleCards(donatedCards.length);
     };
 

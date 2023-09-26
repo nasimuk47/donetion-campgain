@@ -1,18 +1,30 @@
 /* eslint-disable react/prop-types */
-
-import { useLoaderData } from "react-router-dom";
+/* eslint-disable no-unused-vars */
+import React, { useState, useEffect } from "react";
 import Header from "../../components/header/header";
-import Card from "./card";
+import CardList from "./Card";
 
-// eslint-disable-next-line no-unused-vars
 const Home = ({ fetchData }) => {
-    const cards = useLoaderData();
+    const [allDonations, setAllDonations] = useState([]);
+    const [filteredDonations, setFilteredDonations] = useState([]);
+
+    useEffect(() => {
+        fetchData()
+            .then((data) => {
+                setAllDonations(data);
+                setFilteredDonations(data);
+            })
+            .catch(() => {});
+    }, [fetchData]);
 
     return (
         <div>
-            <Header></Header>
+            <Header
+                allDonations={allDonations}
+                setFilteredDonations={setFilteredDonations}
+            />
 
-            <Card cards={cards}></Card>
+            <CardList cards={filteredDonations}></CardList>
         </div>
     );
 };
