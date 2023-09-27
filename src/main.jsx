@@ -1,3 +1,5 @@
+// main.jsx
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
@@ -7,6 +9,7 @@ import Home from "./pages/Home/Home";
 import Donation from "./pages/Donation/Donation";
 import Statistics from "./pages/Statistics/Statistics";
 import CardDetail from "./pages/Home/CardDetail";
+import Notfound from "./pages/Notfound";
 
 const fetchData = () => fetch("/data.json").then((response) => response.json());
 
@@ -32,6 +35,10 @@ const router = createBrowserRouter([
                 path: "/card/:id",
                 element: <CardDetail fetchData={fetchData} />,
                 loader: fetchData,
+            },
+            {
+                path: "*",
+                element: <Notfound />,
             },
         ],
     },

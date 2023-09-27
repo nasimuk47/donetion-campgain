@@ -71,11 +71,14 @@ const Donation = () => {
                     ))}
             </div>
             {donatedCards.length > 4 && visibleCards < donatedCards.length && (
-                <button
-                    className="flex justify-center mt-5 py-2 px-4 rounded-md bg-blue-500 text-white font-semibold"
-                    onClick={handleSeeAllClick}>
-                    See All
-                </button>
+                <div className="flex justify-center mt-5">
+                    {" "}
+                    <button
+                        className="py-2 px-4 rounded-md bg-blue-500 text-white font-semibold"
+                        onClick={handleSeeAllClick}>
+                        See All
+                    </button>
+                </div>
             )}
         </div>
     );

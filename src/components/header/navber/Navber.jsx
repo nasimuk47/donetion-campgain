@@ -10,7 +10,7 @@ const Navber = () => {
     };
 
     return (
-        <div className="flex justify-between items-center mt-2 px-4 bg-[#FFFFFFF2] h-20">
+        <div className=" w-full flex justify-between items-center mt-2 px-4 bg-[#FFFFFFF2] h-20">
             <h1>
                 <img src="Logo.png" alt="" />
             </h1>

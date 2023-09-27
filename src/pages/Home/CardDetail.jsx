@@ -56,7 +56,7 @@ const CardDetail = ({ fetchData }) => {
     }
 
     if (!card) {
-        return <div>Load hocce</div>;
+        return <div>waiting load hoche....</div>;
     }
 
     const { image, title, description, text_color, price } = card;
